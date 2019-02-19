@@ -1,0 +1,17 @@
+{
+  "name": "shyandsy/syframework-example",
+  "repositories": {
+    "dev-package": {
+      "type": "path",
+      "url": "../Src",
+      "options": {
+        "symlink": true
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Shy\\": "../Src"
+    }
+  }
+}
